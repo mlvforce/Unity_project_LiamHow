@@ -9,18 +9,19 @@ public class Simple_toggable : MonoBehaviour,IInteractable
 
     [SerializeField] private UnityEvent onClose;
 
-    public void Interact() // calling the IInteractable
+    public bool IsOpen => isOpen;
+    public void Interact() //calling the interactble
     {
+        isOpen = !isOpen;
+
         if (isOpen)
-        {
-            onClose.Invoke();
-        }
-        else
         {
             onOpen.Invoke();
         }
-        isOpen = !isOpen;
-
+        else
+        {
+            onClose.Invoke();
+        }
     }
 
     // Update is called once per frame

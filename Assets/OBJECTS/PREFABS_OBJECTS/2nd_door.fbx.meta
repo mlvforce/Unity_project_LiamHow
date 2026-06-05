@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 493447ad6e93a5449a3e53b9f0614525
+guid: b20b926e1076f554e8f015b563b372d2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_Metal_texture
-    second: {fileID: 2100000, guid: abce877953ddcdd4e961cbcadc87157b, type: 2}
+    second: {fileID: 2100000, guid: ae38e0cde3418aa4a8c4244c7bfa96fb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
