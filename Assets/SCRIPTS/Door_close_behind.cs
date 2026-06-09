@@ -11,7 +11,7 @@ public class Door_close_behind : MonoBehaviour
         if (!other.CompareTag("Player"))
             return;
 
-        doorToClose.ForceCloseDoor();
+        doorToClose.CompletePuzzle();
     }
 
 
